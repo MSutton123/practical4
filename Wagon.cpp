@@ -28,7 +28,7 @@ void Wagon::emptyWagon() {
 }
 
 void Wagon::printCapybaras() {
-    for (int w = 0; w < 4; w++) {
+    for (int w = 0; w < size; w++) {
         std::cout << seats[w].getName();
         std::cout << " ";
         std::cout << seats[w].getAge();
