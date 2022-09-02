@@ -31,5 +31,5 @@ Person Airplane::getCoPilot() {
 }
 
 void Airplane::printDetails() {
-    std::cout << callsign << std::endl << pilot.getName() << std::endl << pilotco.getName();
+    std::cout << pilot.getName() << std::endl << pilotco.getName();
 }
