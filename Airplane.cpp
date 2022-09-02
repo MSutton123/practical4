@@ -7,14 +7,14 @@ using namespace std;
 
 // a pilot and copilot must be provided when creating an airplane
 
-Airplane::Airplane(string callsign, Person thePilot, Person theCoPilot) {
-    call = callsign;
+Airplane::Airplane(std::string callsign, Person thePilot, Person theCoPilot) {
+    callsign = callsign;
     pilot = thePilot;
     pilotco = theCoPilot;
 }
 
-void Airplane::setPilot(Person thePilot) {
-    pilot = thePilot;
+void Airplane::setPilot(Person JKLthePilot) {
+    pilot = JKLthePilot;
     return;
 }
 
@@ -22,8 +22,8 @@ Person Airplane::getPilot() {
     return pilot;
 }
 
-void Airplane::setCoPilot(Person theCoPilot) {
-    pilotco = theCoPilot;
+void Airplane::setCoPilot(Person JKLtheCoPilot) {
+    pilotco = JKLtheCoPilot;
     return;
 }
 
@@ -31,6 +31,6 @@ Person Airplane::getCoPilot() {
     return pilotco;
 }
 
-void printDetails() {
-    std::cout << call << std::endl << pilot.getPilot() << std::endl << pilotco.getCoPilot();
+void Airplane::printDetails() {
+    std::cout << callsign << std::endl << pilot.getName() << std::endl << pilotco.getName();
 }
