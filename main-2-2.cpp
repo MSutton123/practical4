@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Airplane.h"
-#include "Person.h"
 
 using namespace std;
 
@@ -22,4 +21,5 @@ int main() {
 
     vroom->printDetails();
 
+    return 0;
 }

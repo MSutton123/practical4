@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include "Airplane.h"
-#include "Person.h"
 
 using namespace std;
 

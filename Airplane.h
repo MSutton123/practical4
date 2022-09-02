@@ -4,6 +4,8 @@
 #include <string>
 #include "Person.h"
 
+using namespace std;
+
 // Class definition for an Airplane
 class Airplane
 {
